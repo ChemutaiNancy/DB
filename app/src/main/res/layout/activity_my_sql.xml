@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MySqlActivity">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/inputNames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Customer Names"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        app:met_baseColor="#000"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="30"
+        app:met_primaryColor="#1850f9"
+        app:met_textColorHint="#0fa1f5"
+        app:met_singleLineEllipsis="true"
+        android:layout_marginBottom="8dp"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/inputEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Customer Email"
+        android:inputType="textEmailAddress"
+        android:textSize="12sp"
+        app:met_baseColor="#000"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="30"
+        app:met_primaryColor="#1850f9"
+        app:met_textColorHint="#0fa1f5"
+        app:met_singleLineEllipsis="true"
+        android:layout_marginBottom="8dp"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/inputBalance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Customer Account Balance"
+        android:inputType="numberDecimal"
+        android:textSize="12sp"
+        app:met_baseColor="#000"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="#1850f9"
+        app:met_textColorHint="#0fa1f5"
+        app:met_singleLineEllipsis="true"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnSaveRecords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Save"
+        android:onClick="save"/>
+
+
+    <Button
+        android:id="@+id/btnFetch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:onClick="fetch"
+        android:text="Fetch" />
+
+</LinearLayout>

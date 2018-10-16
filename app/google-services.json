@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "361432391230",
+    "firebase_url": "https://firstfirebase-5e25f.firebaseio.com",
+    "project_id": "firstfirebase-5e25f",
+    "storage_bucket": "firstfirebase-5e25f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361432391230:android:919c414374513e62",
+        "android_client_info": {
+          "package_name": "com.chemutai.sqlite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361432391230-cggonefna7v0mqeekvquhq2437svd686.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwqhP9ZKdHrgUS5wfdAZLC59vDQxdSsgM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
