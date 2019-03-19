@@ -1,5 +1,6 @@
 package com.chemutai.sqlite;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -81,5 +82,7 @@ public class MySqlActivity extends AppCompatActivity {
     }
 
     public void fetch(View view) {
+        Intent intent = new Intent(this, MySqlDisplayActivity.class);//navigate from this activity to MySqlDiaplayActivity
+        startActivity(intent);
     }
 }

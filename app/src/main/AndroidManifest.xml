@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.chemutai.sqlite">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -22,7 +22,8 @@
         <activity android:name=".DisplayActivity" />
         <activity android:name=".FirebaseActivity" />
         <activity android:name=".FirebaseDisplayActivity" />
-        <activity android:name=".MySqlActivity"></activity>
+        <activity android:name=".MySqlActivity" />
+        <activity android:name=".MySqlDisplayActivity"></activity>
     </application>
 
 </manifest>
